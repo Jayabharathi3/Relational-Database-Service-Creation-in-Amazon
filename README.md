@@ -9,7 +9,7 @@ The experiment aims to demonstrate the creation of an Amazon RDS instance for ho
 ## ALGORITHM
 
  ### Steps 1:
- Log in to the AWS Management Console and navigate to the RDS service.
+ Log in to the AWS Management Console and Search for RDS in the search bar and click on the Relational Database Service option..
  
  ### Steps 2:
  Click on Create database, select a database engine (e.g., MySQL), and choose a deployment model (e.g., Standard Create).
@@ -22,15 +22,26 @@ The experiment aims to demonstrate the creation of an Amazon RDS instance for ho
  
  ### Steps 5:
  Launch the RDS instance, connect to it using a database client (e.g., MySQL Workbench or CLI), and test its functionality by creating and querying a sample table.
+
  
 ## COMMANDS
-Include the commands used in the Experiment.
+
+### Connect the database
+
+```sql
+mysql -h <endpoint> -u <username> -p
+```
+### Create and Query a Database
+
 
 ## OUTPUT
+
 ### REG NUMBER: 212222100013
 ### NAME: JAYABHARATHI S
- 
- Include your Screenshots Here.
+
+### Database creation in AWS
+![image](https://github.com/user-attachments/assets/56aee849-da28-4d40-a9cd-275c06b40f1f)
+
  
 ## RESULT
 The experiment successfully demonstrated the creation of a relational database in Amazon RDS, configuration of its settings, and testing of database functionality using SQL commands.
