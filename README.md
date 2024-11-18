@@ -30,7 +30,6 @@ The experiment aims to demonstrate the creation of an Amazon RDS instance for ho
 ```sql
 mysql -h <endpoint> -u <username> -p
 ```
-### Create and Query a Database
 
 
 ## OUTPUT
@@ -41,7 +40,13 @@ mysql -h <endpoint> -u <username> -p
 ### Database creation in AWS
 ![image](https://github.com/user-attachments/assets/56aee849-da28-4d40-a9cd-275c06b40f1f)
 
-### Database - Table
+![image](https://github.com/user-attachments/assets/e194c2b3-5597-4b65-b9fd-2acfd721c037)
+
+
+![image](https://github.com/user-attachments/assets/bb353fae-7e29-4b8e-a5af-db76bc6f71bb)
+
+![image](https://github.com/user-attachments/assets/8739950e-4b20-4175-adfc-a6d5104e80a5)
+
  
 ## RESULT
 The experiment successfully demonstrated the creation of a relational database in Amazon RDS, configuration of its settings, and testing of database functionality using SQL commands.
